@@ -1,0 +1,125 @@
+body {
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: white;
+    margin: 25px;
+    font-family: Helvetica;	
+    color: black;	
+    font-size: 30px; 	
+    padding: 5px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation:hover {
+    background-color: gray;
+    opacity: 0.5;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    padding-right: 100px;
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.profiles {
+    font-size: 50px; 
+    font-family: cursive;	
+    padding: 5px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile:hover {
+    background-color: gray;
+    opacity: 0.5;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas {
+    width: 1375px;
+    min-height: 300px;
+    border: 3px solid black;
+    margin: 20px;
+    display: none;
+}
+
+.origin {
+    padding: 20px;  /* Add padding around the container */
+    border-bottom: 2px solid #ccc;  /* Optional: Add a bottom border to separate from the next section */
+    display: flex;  /* Align items horizontally */
+    align-items: center;
+    text-align: center;
+}
+
+.origin #asclogo {
+    width: 300px;
+    height: auto;
+    border: 15px rgb(63, 128, 250);
+
+}
+#ques1 {
+    font-size:40px;
+    font-family:Helvetica;
+}
+
+#background {
+    font-size:24px;
+    font-family:Helvetica;
+    font-weight:lighter;
+}
+
+/* Styles for the intensive class */
+.intensive {
+    padding: 20px;  /* Add padding around the container */
+    border-top: 2px solid #ccc;  /* Optional: Add a top border to separate from the previous section */
+    align-items: center;
+    text-align: center;
+
+}
+
+.intensive ul {
+    list-style-type: none;
+    padding: 5px; 
+    margin: 2px;
+    text-align: center; 
+}
+
+.intensive li {
+    margin: 10px;
+}
+
+/* Style for list items */
+
+#listtext {
+    font-size:32px;
+    font-family:Helvetica;
+}
+
+#ques2 {
+    font-size:40px;
+    font-family:Helvetica;
+}
+
+ul li{
+    font-size:25px;
+    font-family:Helvetica;
+}
